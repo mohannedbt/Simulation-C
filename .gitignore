@@ -1,0 +1,34 @@
+# Build artifacts
+/bin/
+/build/
+/out/
+
+# Compiled objects
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Archives
+*.a
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# CMake build dirs
+/raylib/
+
+# If you have a local raylib build tree you want to keep, adjust the rule above.
+
+# Logs and temp
+*.log
+*.tmp
+
+# Large or generated docs
+/docs/content.txt
+raylib/
